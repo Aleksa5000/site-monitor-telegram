@@ -1,0 +1,13 @@
+{
+  "Example.com uptime": {
+    "status": "up"
+  },
+  "Book price (A Light in the Attic)": {
+    "status": "up",
+    "value": "£51.77"
+  },
+  "Example domain keyword": {
+    "status": "up",
+    "value": "present"
+  }
+}
