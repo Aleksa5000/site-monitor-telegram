@@ -1,0 +1,15 @@
+monitors:
+  - name: Example.com uptime
+    url: https://example.com
+    type: uptime
+    max_response_ms: 3000      # optional, default 3000
+
+  - name: Book price (A Light in the Attic)
+    url: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+    type: content
+    selector: "p.price_color"  # alert when this text changes
+
+  - name: Example domain keyword
+    url: https://example.com
+    type: keyword
+    keyword: "Example Domain"  # alert when it appears/disappears
